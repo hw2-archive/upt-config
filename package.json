@@ -1,0 +1,44 @@
+{
+  "name": "upt-config",
+  "version": "0.5.2",
+  "description": "The UPT config reader and writer.",
+  "author": {
+    "name": "Hyperweb2"
+  },
+  "licenses": [
+    {
+      "type": "GPL3",
+      "url": "https://github.com/hyperweb2/upt-config/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hyperweb2/upt-config.git"
+  },
+  "main": "lib/Config",
+  "homepage": "https://github.com/hyperweb2/upt-config",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "graceful-fs": "~2.0.0",
+    "mout": "~0.9.0",
+    "optimist": "~0.6.0",
+    "osenv": "0.0.3"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.12.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperweb2/upt-config/issues"
+  },
+  "dist": {
+    "shasum": "1f7d2e899e99b70c29a613e70d4c64590414b22e",
+    "tarball": "http://registry.npmjs.org/bower-config/-/bower-config-0.5.2.tgz"
+  },
+  "readmeFilename": "README.md"
+}
